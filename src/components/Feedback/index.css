@@ -1,0 +1,35 @@
+/* Write your CSS code here. */
+* {
+  box-sizing: border-box;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+}
+
+.feedback-container {
+  background-color: white;
+  border-radius: 1em;
+  padding: 2em;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.emojis-container {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 24px;
+}
+
+.emoji-image {
+  width: 5em;
+}
